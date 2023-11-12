@@ -12,6 +12,12 @@ extra:
       link: https://github.com/qassistio
 extra_css:
   - stylesheets/extra.css
+plugins:
+  - search
+  - typeset
+  - optimize
+  - social
+  - privacy
 theme:
   name: material
   language: en
@@ -20,6 +26,9 @@ theme:
   features:
     - navigation.expand
     - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
   font:
     text: Nunito
   palette:
