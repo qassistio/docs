@@ -1,4 +1,39 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: QAssist Documentation
+site_url: https://qassist.io
+copyright: Copyright &copy; 2023 QAssist Ltd
+extra:
+  homepage: https://qassist.io
+  generator: false
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/QAssistio
+    - icon: fontawesome/brands/github
+      link: https://github.com/qassistio
+extra_css:
+  - stylesheets/extra.css
 theme:
   name: material
+  language: en
+  favicon: assets/icons/favicon.ico
+  logo: assets/img/icon.png
+  features:
+    - navigation.footer
+  font:
+    text: Nunito
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
