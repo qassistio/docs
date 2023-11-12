@@ -18,6 +18,7 @@ theme:
   favicon: assets/icons/favicon.ico
   logo: assets/img/icon.png
   features:
+    - navigation.expand
     - navigation.footer
   font:
     text: Nunito

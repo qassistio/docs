@@ -1,2 +1,2 @@
-# qassist-docs
+# QAssist Documentation
 Documentation site for QAssist
