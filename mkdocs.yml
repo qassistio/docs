@@ -14,10 +14,6 @@ extra_css:
   - stylesheets/extra.css
 plugins:
   - search
-  - typeset
-  - optimize
-  - social
-  - privacy
 theme:
   name: material
   language: en
