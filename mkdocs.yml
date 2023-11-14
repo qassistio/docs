@@ -14,6 +14,22 @@ extra_css:
   - stylesheets/extra.css
 plugins:
   - search
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 theme:
   name: material
   language: en
