@@ -1,10 +1,24 @@
 # Setting up a private bridge
 
-If the QAssist public bridges are not available, or you want to set up your own,
+If the QAssist public bridges are not accessible to you, or you want to set up your own,
 follow this guide.
 
 You can set up your own bridge using our open-source Docker container, at no additional
 cost to your team.
+
+## Communication
+
+Bridges will need to be both accessible by your local machine (typically exposd to the web) and able
+to communicate with the remote machine directly.
+
+``` mermaid
+graph LR
+  A[Local Machine] -->|WebSocket| B[Bridge];
+  B -->|RDP| C[Remote Machine];
+  B -->|VNC| C;
+  B -->|SSH| C;
+  B -->|Etc...| C;
+```
 
 ## Pre-requisites
 

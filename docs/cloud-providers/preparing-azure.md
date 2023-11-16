@@ -16,11 +16,11 @@ Follow the guide below to link [QAssist](https://app.qassist.io) and your Micros
     * `Microsoft.Web`
 -   A resource group, within that subscription[^2]
 -   An Azure Virtual Network[^3]
-    * With a NAT Gateway 
+    * With a NAT Gateway[^4]
     * With 2 subnets with a NAT Gateway (It can be the same NAT Gateway)
         * `Subnet A` - Will be used for the bridge
         * `Subnet B` - Will be used for the on-demand machines
--   A way to run the bridge, we recommend `Web App for Containers`[^4]
+-   A way to run the bridge, we recommend `Web App for Containers`[^5]
     * If you wish to host it differently, follow the guide [here](../bridges/setup-bridge.md)
 
 ??? note "Recommended 'Web App for Containers' setup"
@@ -96,4 +96,5 @@ Any other services or ways to run the bridge are out of scope of this document.
 [^1]: QAssist uses those resource providers to check and provision machines, [Learn more](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-providers-and-types#register-resource-provider).
 [^2]: QAssist will only create machines in the resource group configured, [Learn more](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal#create-resource-groups).
 [^3]: The virtual network allows communication between the bridge and the machines, [Learn more](https://learn.microsoft.com/en-us/azure/virtual-network/quick-create-portal).
-[^4]: `Web App For Containers` is a fast and cost-effective way to get the bridge up and running
+[^4]: A NAT gateway is required for machines to access the internet
+[^5]: `Web App For Containers` is a fast and cost-effective way to get the bridge up and running
