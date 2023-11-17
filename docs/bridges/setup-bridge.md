@@ -8,16 +8,20 @@ cost to your team.
 
 ## Communication
 
-Bridges will need to be both accessible by your local machine (typically exposd to the web) and able
-to communicate with the remote machine directly.
+Bridges will need to be both accessible by your local web browser (typically exposed to the web) and able
+to communicate with the remote machine directly (typically joined to a private subnet).
+
+When you access the [QAssist](https://app.qassist.io) app, your local web browser will retrieve an encrypted token
+that is then passed to the bridge, to then authenticate against a machine.
 
 ``` mermaid
 graph LR
-  A[Local Machine] -->|WebSocket| B[Bridge];
-  B -->|RDP| C[Remote Machine];
-  B -->|VNC| C;
-  B -->|SSH| C;
-  B -->|Etc...| C;
+  A[Local Web Browser] <-->|Encrypted Token| B[QAssist];
+  A -->|WebSocket| C[Bridge];
+  C -->|RDP| D[Remote Machine];
+  C -->|VNC| D;
+  C -->|SSH| D;
+  C -->|Etc...| D;
 ```
 
 ## Pre-requisites
@@ -29,7 +33,7 @@ graph LR
 
 1.  In [QAssist](https://app.qassist.io) go to `Bridges` and click `Create Bridge`
     1. `Name` - choose a friendly name
-    2. `URL` - The domain name/IP address of the machine running the bridge container, prefixed with `wss://` or `ws://` if you don`t have an SSL certificate
+    2. `URL` - The domain name/IP address and port (Default `8080`) of the machine running the bridge container, prefixed with `wss://` or `ws://` if you don`t have an SSL certificate
 2.  Click `Add`, after a few minutes you will receive an email with a **secret key**
 3.  Continue the setup&hellip;
     1. [Using a Cloud Platform](#using-a-cloud-platform)
@@ -52,7 +56,7 @@ set up the bridge on your cloud platform.
     1. `docker run --name qassist-bridge --env CRYPT_SECRET='SECRET KEY HERE' --restart always --detach glokon/guacws:latest`
     2. Replace `SECRET KEY HERE` with the **secret key** you received in your email
     3. The default port for the container is `8080`
-    4. If using `containerd`, the command may be different
+    4. If using a different container runtime, the command may be different
 2.  To stop the bridge, run the following commands
     1. `docker stop qassist-bridge`
     2. `docker rm --force qassist-bridge`
