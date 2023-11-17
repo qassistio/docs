@@ -28,7 +28,7 @@ graph LR
 ## Setup
 
 1.  In [QAssist](https://app.qassist.io) go to `Bridges` and click `Create Bridge`
-    1. `Name` - a friendly name
+    1. `Name` - choose a friendly name
     2. `URL` - The domain name/IP address of the machine running the bridge container, prefixed with `wss://` or `ws://` if you don`t have an SSL certificate
 2.  Click `Add`, after a few minutes you will receive an email with a **secret key**
 3.  Continue the setup&hellip;

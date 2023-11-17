@@ -14,7 +14,7 @@ exposing any credentials.
     2. `Bridge` - The bridge that will be used to communicate with the machine
     3. `Protocol` - The protocol that will be used to communicate with the bridge
          1. Supported protocols are `RDP`, `VNC`, `SSH`, `Telnet` and `Kubernetes`
-    4. `Name` - a friendly name
+    4. `Name` - choose a friendly name
     5. `Address/Hostname` - The Address/Hostname of the machine, relative to the `Bridge` selected
          1. If using a `Provider` this will be populated for you when the machine starts
     6. `Port` _(Optional)_ - The port that will be used to communicate with the machine and the selected `Protocol`

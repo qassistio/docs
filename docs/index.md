@@ -1,6 +1,6 @@
 # Welcome
 
-This documentation site will assist you in setting up and using QAssist, below you can find
+This documentation site will assist you in setting up and using QAssist. Below you can find
 some terminology that QAssist uses in the app and in the documentation.
 
 ## Terminology

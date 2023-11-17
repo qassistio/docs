@@ -19,7 +19,7 @@ IP addresses for the bridge the machine is configured for.
 ## Regional Bridges
 
 When configuring a machine, select a bridge that is close to the endpoint machine to reduce any latency,
-the available regions are;
+the available regions are:
 
 ### Europe
 

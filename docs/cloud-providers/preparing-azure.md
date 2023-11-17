@@ -83,7 +83,7 @@ Any other services or ways to run the bridge are out of scope of this document.
 
 1.  In [QAssist](https://app.qassist.io) go to `Providers` and click `Create Provider`
     1. `Type` - `Azure`
-    2. `Name` - a friendly name
+    2. `Name` - choose a friendly name
     3. `Directory (tenant) ID` - From `App Registration`
     4. `Subscription ID` - The subscription ID you want QAssist to use
     5. `Application (client) ID` - From `App Registration`
