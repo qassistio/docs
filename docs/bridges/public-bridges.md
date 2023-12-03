@@ -23,12 +23,8 @@ the available regions are:
 
 ### Europe
 
-`1.2.3.4`
+`eu.bridges.qassist.io`
 
 ### USA
 
-`1.2.3.4`
-
-### Oceania
-
-`1.2.3.4`
+`us.bridges.qassist.io`
