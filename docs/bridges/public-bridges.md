@@ -18,13 +18,16 @@ IP addresses for the bridge the machine is configured for.
 
 ## Regional Bridges
 
+Your network will require the following IP Addresses allow-listed for the configured ports,
+so that our bridge can access the machines on your network. (This also applies to any cloud providers)
+
 When configuring a machine, select a bridge that is close to the endpoint machine to reduce any latency,
 the available regions are:
 
 ### Europe
 
-`eu.bridges.qassist.io`
+`206.189.245.1`
 
 ### USA
 
-`us.bridges.qassist.io`
+`24.199.75.125`
