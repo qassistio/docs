@@ -60,7 +60,7 @@ Any other services or ways to run the bridge are out of scope of this document.
     1. `URL` - This will be the `Domain` from the `Web App for Containers`
     2. Make a note of the **secret key** you receive in your email
 3.  Set the following environment variable in the `ECS` container
-    1. `Name` - `CRYPT_SECRET`
+    1. `Name` - `Cipher__Key`
     2. `Value` - _The **secret key** you received when creating the bridge_
 4.  The bridge setup is complete
 

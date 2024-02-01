@@ -33,7 +33,7 @@ Follow the guide below to link [QAssist](https://app.qassist.io) and your Micros
         - Options: `Single Container`
         - Image Source: `Docker Hub`
         - Access Type: `Public`
-        - Image and tag: `glokon/guacws:latest`
+        - Image and tag: `glokon/guacws-next:latest`
     -   **Networking**
         - Enable public access: `On`
         - Enable network injection: `On`
@@ -75,7 +75,7 @@ Any other services or ways to run the bridge are out of scope of this document.
     1. `URL` - This will be the `Domain` from the `Web App for Containers`
     2. Make a note of the **secret key** you receive in your email
 3.  Create a new `Application Setting` in the `Web App`
-    1. `Name` - `CRYPT_SECRET`
+    1. `Name` - `Cipher__Key`
     2. `Value` - _The **secret key** you received when creating the bridge_
 4.  Restart the `Web App`, after that the bridge setup is complete
 

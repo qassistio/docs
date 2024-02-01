@@ -24,10 +24,14 @@ so that our bridge can access the machines on your network. (This also applies t
 When configuring a machine, select a bridge that is close to the endpoint machine to reduce any latency,
 the available regions are:
 
-### Europe
+### Europe (eu.bridge.qassist.io)
 
-`206.189.245.1`
+`18.170.254.26`
 
-### USA
+### USA (us.bridge.qassist.io)
 
-`24.199.75.125`
+`44.197.57.105`
+
+### ASIA (asia.bridge.qassist.io)
+
+`13.200.187.87`
