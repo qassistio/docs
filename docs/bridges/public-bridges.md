@@ -31,7 +31,3 @@ the available regions are:
 ### USA (us.bridge.qassist.io)
 
 `44.197.57.105`
-
-### ASIA (asia.bridge.qassist.io)
-
-`13.200.187.87`
