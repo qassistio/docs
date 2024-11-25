@@ -1,4 +1,4 @@
-# Setting up a private bridge
+# Self-Hosted Bridge Setup
 
 If the QAssist public bridges are not accessible to you, or you want to set up your own,
 follow this guide.
@@ -17,7 +17,7 @@ that is then passed to the bridge, to then authenticate against a machine.
 ``` mermaid
 graph LR
   A[Local Web Browser] <-->|Encrypted Token| B[QAssist];
-  A -->|WebSocket| C[Bridge];
+  A -->|WebSocket & Token| C[Bridge];
   C -->|RDP| D[Remote Machine];
   C -->|VNC| D;
   C -->|SSH| D;

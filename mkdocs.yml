@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: QAssist Documentation
 site_url: https://qassist.io
-copyright: Copyright &copy; 2023 QAssist Ltd
+copyright: Copyright &copy; 2024 QAssist Ltd
 extra:
   homepage: https://qassist.io
   generator: false
@@ -12,6 +12,20 @@ extra:
       link: https://github.com/qassistio
 extra_css:
   - stylesheets/extra.css
+nav:
+  - Welcome: index.md
+  - Machines:
+      - machines/setup-machine.md
+  - Advanced Usage:
+    - Bridges:
+        - bridges/public-bridges.md
+        - bridges/setup-bridge.md
+    - Cloud Providers:
+        - cloud-providers/index.md
+        - cloud-providers/preparing-aws.md
+        - cloud-providers/preparing-azure.md
+  - Additional Help:
+      - help/raise-a-ticket.md
 plugins:
   - search
 markdown_extensions:
@@ -36,6 +50,7 @@ theme:
   favicon: assets/icons/favicon.ico
   logo: assets/img/icon.png
   features:
+    - navigation.path
     - navigation.expand
     - navigation.footer
     - search.suggest
