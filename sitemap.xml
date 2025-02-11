@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://qassist.io/</loc>
+         <lastmod>2025-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://qassist.io/bridges/public-bridges/</loc>
+         <lastmod>2025-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://qassist.io/bridges/setup-bridge/</loc>
+         <lastmod>2025-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://qassist.io/cloud-providers/</loc>
+         <lastmod>2025-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://qassist.io/cloud-providers/preparing-aws/</loc>
+         <lastmod>2025-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://qassist.io/cloud-providers/preparing-azure/</loc>
+         <lastmod>2025-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://qassist.io/help/raise-a-ticket/</loc>
+         <lastmod>2025-02-11</lastmod>
+    </url>
+    <url>
+         <loc>https://qassist.io/machines/setup-machine/</loc>
+         <lastmod>2025-02-11</lastmod>
+    </url>
+</urlset>

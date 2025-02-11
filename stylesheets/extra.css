@@ -1,0 +1,25 @@
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color:               #e74e35;
+    --md-primary-fg-color--light:        #f48775;
+    --md-primary-fg-color--dark:         #b43621;
+    --md-primary-bg-color:               hsla(0, 0%, 100%, 1);
+    --md-primary-bg-color--light:        hsla(0, 0%, 100%, 0.7);
+
+    --md-accent-fg-color:                #f9b3a8;
+    --md-accent-fg-color--transparent:   hsla(8, 87%, 82%, 0.1);
+    --md-accent-bg-color:                hsla(0, 0%, 100%, 1);
+    --md-accent-bg-color--light:         hsla(0, 0%, 100%, 0.7);
+}
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:               #e74e35;
+    --md-primary-fg-color--light:        #f48775;
+    --md-primary-fg-color--dark:         #b43621;
+    --md-primary-bg-color:               hsla(0, 0%, 100%, 1);
+    --md-primary-bg-color--light:        hsla(0, 0%, 100%, 0.7);
+
+    --md-accent-fg-color:                #f9b3a8;
+    --md-accent-fg-color--transparent:   hsla(8, 87%, 82%, 0.1);
+    --md-accent-bg-color:                hsla(0, 0%, 100%, 1);
+    --md-accent-bg-color--light:         hsla(0, 0%, 100%, 0.7);
+}
